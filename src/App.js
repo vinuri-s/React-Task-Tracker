@@ -10,21 +10,35 @@ const App=() => {
 
   const [tasks,setTasks]=useState(
     [{
-    id:1,
-    text:'Doctor Appointment',
-    day:'June 10th at 5.30pm',
-    reminder:true,
+      id: 1,
+      text: 'Doctor Appointment',
+      day: 'June 10th at 5.30pm',
+      reminder: true,
 
     },
-    {
-      id:2,
-      text:'Doctor Appointment',
-      day:'June 10th at 5.30pm',
-      reminder:true,
-  
+      {
+        id: 2,
+        text: 'Doctor Appointment',
+        day: 'June 10th at 5.30pm',
+        reminder: true,
+
+      },
+      {
+        id: 3,
+        text: 'Car Service',
+        day: 'June 15th at 10.30am',
+        reminder: true,
+
+      },
+      {
+        id: 3,
+        text: 'Go to mental clinic',
+        day: 'June 16th at 1.30pm',
+        reminder: true,
+
       }
-  ]
-)
+    ]
+  )
 
 //Addtask
 const addTask=(task)=>{
