@@ -31,10 +31,24 @@ const App=() => {
 
       },
       {
-        id: 3,
+        id: 4,
         text: 'Go to mental clinic',
         day: 'June 16th at 1.30pm',
         reminder: true,
+
+      },
+      {
+        id: 5,
+        text: 'Complete New Assignment',
+        day: 'June 18th at 11.30pm',
+        reminder: true,
+
+      },
+      {
+        id: 5,
+        text: 'Go to mental clinic Again',
+        day: 'June 19th at 08.30am',
+        reminder: false,
 
       }
     ]

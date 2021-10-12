@@ -13,12 +13,13 @@ const Header = ({title,onAdd,showAdd}) => {
                 {title}
             </h1>
             <Button color={showAdd ?'red':'green'} text={showAdd ? 'Close' :'Add'} onClick={onAdd}/>
+            <Button color={'red'} text={'Cancel'} />
         </header>
     )
 }
 
 Header.defaultProps = {
-    title:'Task Tracker',
+    title:'Test Task Tracker',
 }
 
 Header.propTypes={
