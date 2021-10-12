@@ -12,13 +12,13 @@ const App=() => {
     [{
       id: 1,
       text: 'Doctor Appointment',
-      day: 'June 10th at 5.30pm',
+      day: 'June 9th at 4.30pm',
       reminder: true,
 
     },
       {
         id: 2,
-        text: 'Doctor Appointment',
+        text: 'Office Appointment',
         day: 'June 10th at 5.30pm',
         reminder: true,
 
