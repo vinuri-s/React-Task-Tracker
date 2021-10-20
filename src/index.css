@@ -54,6 +54,11 @@ body {
   font-family: inherit;
 }
 
+.btn:hover{
+  background-color: steelblue;
+  color: #f8f7f7;
+}
+
 .btn:focus {
   outline: none;
 }
