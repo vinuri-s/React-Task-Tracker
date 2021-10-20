@@ -24,6 +24,14 @@ body {
   border-radius: 5px;  
 }
 
+.textBoxStyle {
+  max-width: 400px;
+  background-color: white;    
+  border: 1px solid steelblue;
+  padding: 30px;  
+  border-radius: 5px;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
