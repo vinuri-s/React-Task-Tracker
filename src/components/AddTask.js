@@ -36,13 +36,22 @@ const AddTask = ({onAdd}) => {
                 <input type='text' className="textBoxStyle" placeholder='Add Day & Time' value={day} 
                 onChange={(e)=>setDay(e.target.value)}/>
            </div>
-           <div className='form-control form-control-check'>
+           {/* <div className='form-control form-control-check'>
+
+           
                 <label>
                     Set Reminder
                 </label>
-                <input type='checkbox' checked={reminder} value={reminder} 
+                <input type='checkbox' className="textBoxStyle" checked={reminder} value={reminder} 
                 onChange={(e)=>setReminder(e.currentTarget.checked)}/>
-           </div>
+           </div> */}
+           <center>
+           <div class="form-check">
+                <input type="checkbox" className="textBoxStyle" class="form-check-input" checked={reminder} value={reminder} 
+                onChange={(e)=>setReminder(e.currentTarget.checked)}/>
+                <label class="form-check-label" for="exampleCheck1">Set Reminder</label>
+            </div>
+            </center>
            <input type='submit' value='Save Task' className='btn btn-block'/>
        </form>
     )
