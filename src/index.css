@@ -37,7 +37,7 @@ body {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 20px;
-  color: rgb(243, 243, 243);
+  color:beige ;
 }
 
 .btn {
@@ -93,7 +93,11 @@ body {
 }
 
 .form-control label {
-  display: block;
+  display: block;  
+}
+
+label {
+  color: white;
 }
 
 .form-control input {
